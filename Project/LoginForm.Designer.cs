@@ -44,7 +44,6 @@
             this.tbUName.Name = "tbUName";
             this.tbUName.Size = new System.Drawing.Size(182, 24);
             this.tbUName.TabIndex = 1;
-            this.tbUName.TabStop = false;
             this.tbUName.Text = "Username";
             this.tbUName.Enter += new System.EventHandler(this.tbUName_Enter);
             this.tbUName.Leave += new System.EventHandler(this.tbUName_Leave);
@@ -57,7 +56,6 @@
             this.tbPWord.Name = "tbPWord";
             this.tbPWord.Size = new System.Drawing.Size(182, 24);
             this.tbPWord.TabIndex = 2;
-            this.tbPWord.TabStop = false;
             this.tbPWord.Text = "Password";
             this.tbPWord.Enter += new System.EventHandler(this.tbPWord_Enter);
             this.tbPWord.Leave += new System.EventHandler(this.tbPWord_Leave);
@@ -78,9 +76,9 @@
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(182, 32);
             this.btnLogin.TabIndex = 3;
-            this.btnLogin.TabStop = false;
             this.btnLogin.Text = "Login";
             this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
             // LoginForm
             // 

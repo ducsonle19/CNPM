@@ -8,3 +8,13 @@ D:\CNPhanMem\Project\Project\Project\obj\Debug\Project.csproj.GenerateResource.c
 D:\CNPhanMem\Project\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
 D:\CNPhanMem\Project\Project\Project\obj\Debug\Project.exe
 D:\CNPhanMem\Project\Project\Project\obj\Debug\Project.pdb
+D:\CNPhanMem\Project\Project\obj\Debug\Project.csprojAssemblyReference.cache
+D:\CNPhanMem\Project\Project\obj\Debug\Project.LoginForm.resources
+D:\CNPhanMem\Project\Project\obj\Debug\Project.Properties.Resources.resources
+D:\CNPhanMem\Project\Project\obj\Debug\Project.csproj.GenerateResource.cache
+D:\CNPhanMem\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
+D:\CNPhanMem\Project\Project\obj\Debug\Project.exe
+D:\CNPhanMem\Project\Project\obj\Debug\Project.pdb
+D:\CNPhanMem\Project\Project\bin\Debug\Project.exe.config
+D:\CNPhanMem\Project\Project\bin\Debug\Project.exe
+D:\CNPhanMem\Project\Project\bin\Debug\Project.pdb

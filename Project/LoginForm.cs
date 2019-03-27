@@ -12,6 +12,8 @@ namespace Project
 {
     public partial class LoginForm : Form
     {
+        private AccountDataBase adb = AccountDataBase.get();
+
         public LoginForm()
         {
             InitializeComponent();
@@ -39,6 +41,7 @@ namespace Project
         {
             if (tbPWord.Text == "Password")
             {
+                tbPWord.UseSystemPasswordChar = true;
                 tbPWord.Text = "";
                 tbPWord.ForeColor = Color.Black;
             }
@@ -48,8 +51,26 @@ namespace Project
         {
             if (tbPWord.Text == "")
             {
+                tbPWord.UseSystemPasswordChar = false;
                 tbPWord.Text = "Password";
                 tbPWord.ForeColor = Color.Gray;
+            }
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            String username = tbUName.Text;
+            String password = tbPWord.Text;
+
+            Account acc = adb.login(username, password);
+
+            if (acc == null)
+            {
+                MessageBox.Show("Login fail!", "Error");
+            }
+            else
+            {
+                MessageBox.Show("Login successful!");
             }
         }
     }
