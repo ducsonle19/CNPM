@@ -49,6 +49,12 @@
     <Compile Include="Account.cs" />
     <Compile Include="AccountDataBase.cs" />
     <Compile Include="DataBaseManager.cs" />
+    <Compile Include="Home.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Home.Designer.cs">
+      <DependentUpon>Home.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>

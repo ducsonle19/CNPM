@@ -8,6 +8,7 @@ namespace Project
 {
     class Account
     {
+        public String ID { set; get; }
         public String Username { set; get; }
         public String Password { set; get; }
 
@@ -16,10 +17,23 @@ namespace Project
 
         }
 
-        public Account(String username, String password)
+        public Account(String id, String username, String password)
         {
+            this.ID = id;
             this.Username = username;
             this.Password = password;
+        }
+
+        public bool isAdmin()
+        {
+            String type = this.ID.Substring(0, 2);
+
+            if (type == "AD")
+            {
+                return true;
+            }
+
+            return false;
         }
     }
 }

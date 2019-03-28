@@ -44,7 +44,7 @@ namespace Project
 
             DataRow row = table.Rows[0];
 
-            Account acc = new Account((String)row["username"], (String)row["password"]);
+            Account acc = new Account((String)row["id"], (String)row["username"], (String)row["password"]);
 
             return acc;
         }

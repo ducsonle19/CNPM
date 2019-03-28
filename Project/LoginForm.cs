@@ -70,6 +70,14 @@ namespace Project
             }
             else
             {
+                if (acc.isAdmin())
+                {
+                    MessageBox.Show("Admin");
+                }
+                else
+                {
+                    MessageBox.Show("Not Admin");
+                }
                 MessageBox.Show("Login successful!");
             }
         }
